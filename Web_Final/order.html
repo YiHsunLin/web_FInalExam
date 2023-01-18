@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>訂購資訊</title>
+    <link rel="stylesheet" href="order_style.css">
+</head>
+<body>
+    <nav class="navbar bg-light">
+      <img src="img/logo.png" onclick="window.location='index.html';">
+      <ul class="nav">
+        <li class="n1"><a href="index.html">首頁</a></li>
+        <li class="n2"><a href="service.html">服務介紹</a></li>
+        <li class="n3"><a href="design.html">設計作品</a></li>
+        <li class="n4"><a href="feed.html">領養專區</a></li>
+        <input type="button" class="n5" onclick="location.href='order.html'" value="毛孩似顏繪">
+      </ul>
+    </nav>
+    <div class="first">
+        <img src="img/banner.png">
+    </div>
+    <div class="second">
+        <span class="span1">
+            <a class="s1">填寫訂購資訊</a>
+            <span class="span2">
+                <a>名字</a>
+                <input type="text" class="name">
+            </span>
+            <span class="span3">
+                <a>姓氏</a>
+                <input type="text" class="fname">
+            </span>
+            <span class="span4">
+                <a>手機號碼</a>
+                <input type="text" class="phone">
+            </span>
+            <span class="span5">
+                <a>電子郵件</a>
+                <input type="email" class="mail">
+            </span>
+            <span class="span6">
+                <a>收件地址</a>
+                <select class="add">
+                    <option value="add">請選擇城市</option>
+                </select>
+                <select class="area">
+                    <option value="Taipei">請選擇區域</option>
+                </select>
+                <input type="text" class="detail" placeholder="請輸入詳細地址">
+            </span>
+            <span class="span7">
+                <a>選擇設計師風格</a>
+                <select class="style">
+                    <option value="style">Meili</option>
+                </select>
+            </span>
+            <span class="span8">
+                <a>付款方式</a>
+                <select class="pay">
+                    <option value="pay">貨到付款</option>
+                </select>
+            </span>
+            <span class="span9">
+                <a class="buy">加購服務</a>
+                <input type="checkbox" class="extra" id="extra">
+                <a class="ex1">送禮用包裝+100</a>
+                <input type="checkbox" class="extra2" id="extra2">
+                <a class="ex2">無框畫+250</a>
+            </span>
+            <span class="span10">
+                <a>備註說明</a>
+                <input type="text" class="comment">
+            </span>
+            <a class="total">總金額 NT$ 300</a>
+            <input type="button" class="btn" value="送出訂購資訊">
+        </span>
+    </div>
+    <div class="footer">
+        <hr>
+        <img class="link01" src="img/link01.png">
+        <a class="footer-1">加入奴才團隊</a>
+        <a class="footer-2">我也會畫畫，希望能盡一份心力！</a>
+        <input type="button" class="contact" onclick="location.href='order.html'" value="聯絡我們">
+        <img class="link02" src="img/link02.png">
+        <a class="footer-3">加入奴才團隊</a>
+        <a class="footer-4">我也會畫畫，希望能盡一份心力！</a>
+        <input type="button" class="feed" onclick="location.href='feed.html'" value="領養專區">
+        <span>
+          <a class="copyright">Copyright © 2021 撿到寶.All rights reserved.</a>
+        </span>
+      </div>
+</body>
